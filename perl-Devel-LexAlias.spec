@@ -1,6 +1,8 @@
+%define _buildid .2
+
 Name:           perl-Devel-LexAlias
 Version:        0.05
-Release:        1%{?dist}
+Release:        1%{?_buildid}%{?dist}
 Summary:        Alias lexical variables
 License:        GPL+ or Artistic
 Group:          Development/Libraries
