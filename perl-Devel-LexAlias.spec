@@ -50,6 +50,11 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Tue Dec 23 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 0.05-1.2
+- Adapt for AL/LL
+- Add package support URL
+- Import source package EPEL7/perl-Devel-LexAlias-0.05-1.el7
+
 * Sun Feb 03 2013 Iain Arnell <iarnell@gmail.com> 0.05-1
 - update to latest upstream version
 - clean up spec for modern rpmbuild
