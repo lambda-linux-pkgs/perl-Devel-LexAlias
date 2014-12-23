@@ -15,6 +15,9 @@ BuildRequires:  perl(Test::More)
 %{?perl_default_filter}
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Devel::LexAlias provides the ability to alias a lexical variable in a
 subroutines scope to one of your choosing.
 
